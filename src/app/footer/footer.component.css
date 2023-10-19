@@ -1,0 +1,13 @@
+/* footer.component.css */
+footer {
+  background-color: #9b59b6; /* Purple */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 18px;
+  }
+}

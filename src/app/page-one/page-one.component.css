@@ -1,0 +1,32 @@
+/* page-one.component.css */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #3498db; /* Blue */
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #2ecc71; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 80%;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}

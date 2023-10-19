@@ -1,0 +1,8 @@
+<nav>
+  <ul>
+    <li *ngFor="let menuItem of menuItems" (click)="changeColor(menuItem.color)">
+      {{ menuItem.name }}
+    </li>
+  </ul>
+</nav>
+
